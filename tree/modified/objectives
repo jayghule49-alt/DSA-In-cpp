@@ -1,0 +1,6 @@
+To create a Binary Search Tree (BST) using the given elements.
+To perform inorder traversal of the BST.
+To display the elements in ascending order.
+To accept and validate the value of k.
+To identify the kth smallest element in the BST.
+To display the position and value of the selected element without separately sorting the input elements.
