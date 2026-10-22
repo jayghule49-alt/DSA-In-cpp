@@ -1,0 +1,9 @@
+Start.
+Create an empty Binary Search Tree.
+Insert the given elements into the BST.
+Accept the value of k from the user.
+Perform inorder traversal (Left, Root, Right) and display the sequence.
+Count the nodes visited during traversal.
+Identify the kth smallest element and its position.
+If k is invalid, display an error message.
+Stop.
