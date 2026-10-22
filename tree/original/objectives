@@ -1,0 +1,7 @@
+Objectives – 1st Problem Statement
+To create a Binary Search Tree (BST) using the given elements.
+To find the kth smallest element without separately sorting the input elements.
+To perform inorder traversal of the BST.
+To count the nodes visited during traversal.
+To validate the value of k according to the number of nodes.
+To display the kth smallest element as the final output.
