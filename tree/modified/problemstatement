@@ -1,0 +1,7 @@
+To implement a Binary Search Tree (BST) to display the inorder traversal sequence and identify the kth smallest element by performing the following operations:
+Insert elements into the BST.
+Accept the value of k from the user.
+Display all elements in ascending order using inorder traversal.
+Count the visited nodes and identify the position of the kth smallest element.
+Display the inorder sequence, position, and value of the selected element.
+Each node contains an integer data value.
