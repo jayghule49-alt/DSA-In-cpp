@@ -1,0 +1,6 @@
+Problem Statement 1: Kth Smallest Element in BST
+Write a C++ program to create a Binary Search Tree (BST) using the given elements.
+Find the kth smallest element without separately sorting the input elements.
+Use inorder traversal (Left, Root, Right) to access elements in ascending order.
+Validate the value of k based on the total number of nodes in the BST.
+Display the kth smallest element or an appropriate error message if k is invalid.
