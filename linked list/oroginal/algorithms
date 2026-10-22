@@ -1,0 +1,49 @@
+Algorithm 1: Insert Employee at End
+
+Start.
+
+Create a new node and enter employee details.
+
+If the list is empty, make the new node point to itself in both directions.
+
+Otherwise, traverse to the last node.
+
+Connect the last node to the new node.
+
+Connect the new node to the first node and update the previous and next pointers.
+
+Stop.
+
+Algorithm 2: Delete Employee
+
+Start.
+
+Enter the employee ID to be deleted.
+
+If the list is empty, display “List is empty.”
+
+Search for the employee ID.
+
+If the employee is found, adjust the previous and next pointers.
+
+If the employee is the only node, make the list empty.
+
+Free the deleted node's memory.
+
+Stop.
+
+Algorithm 3: Display Employee Records
+
+Start.
+
+Check whether the list is empty.
+
+If empty, display “No employee records.”
+
+Otherwise, start from the head node.
+
+Display employee details and move to the next node.
+
+Continue until the head node is reached again.
+
+Stop.
