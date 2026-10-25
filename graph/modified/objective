@@ -1,0 +1,6 @@
+Objectives 
+To modify the weight of an existing edge in the graph.
+To reapply Prim’s algorithm after updating an edge weight.
+To display each selected edge along with its weight.
+To calculate and display the running total cost after selecting each edge.
+To detect disconnected graphs and check whether a Minimum Spanning Tree can be formed.
