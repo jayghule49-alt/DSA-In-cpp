@@ -1,0 +1,13 @@
+Updating Edge Weight and Detecting a Disconnected Graph
+Start.
+Create a weighted graph representing airport facilities and their ground connections.
+Input the number of vertices and the edge weights.
+Display the graph and ask the user to select an edge for updating.
+Update the selected edge with the new weight.
+Initialize all vertices as unvisited and select a starting vertex.
+Apply Prim’s algorithm to find the minimum-weight edge connecting a visited vertex to an unvisited vertex.
+Select the minimum-weight edge, mark the new vertex as visited, and update the running total cost.
+Repeat Steps 7 and 8 until all vertices are visited or no connecting edge is available.
+If all vertices are visited, display every selected edge with its weight and the running total cost.
+If some vertices remain unvisited, display a message that the graph is disconnected and a Minimum Spanning Tree (MST) cannot be formed.
+Stop.
