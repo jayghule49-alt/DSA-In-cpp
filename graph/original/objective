@@ -1,0 +1,6 @@
+Objectives 
+To represent airport facilities as vertices and ground connections as weighted edges in a graph.
+To implement Prim’s algorithm to find the Minimum Spanning Tree (MST).
+To connect all airport facilities with minimum total cost.
+To display the selected edges and their respective weights.
+To calculate and display the total cost of the selected connections.
