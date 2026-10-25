@@ -1,0 +1,72 @@
+#include <iostream>
+#include <climits>
+using namespace std;
+
+#define MAX 20
+
+int main()
+{
+    int n, cost[MAX][MAX];
+    int visited[MAX] = {0};
+    int i, j, edges = 0;
+    int minCost = 0, min, u, v;
+
+    cout << "Enter number of airport facilities: ";
+    cin >> n;
+
+    cout << "Enter the cost matrix (0 for no edge):\n";
+
+    for (i = 0; i < n; i++)
+    {
+        for (j = 0; j < n; j++)
+        {
+            cin >> cost[i][j];
+        }
+    }
+
+    visited[0] = 1;
+
+    cout << "\nSelected Connections:\n";
+
+    while (edges < n - 1)
+    {
+        min = INT_MAX;
+        u = -1;
+        v = -1;
+
+        for (i = 0; i < n; i++)
+        {
+            if (visited[i])
+            {
+                for (j = 0; j < n; j++)
+                {
+                    if (!visited[j] && cost[i][j] > 0
+                        && cost[i][j] < min)
+                    {
+                        min = cost[i][j];
+                        u = i;
+                        v = j;
+                    }
+                }
+            }
+        }
+
+        if (u == -1)
+        {
+            cout << "Graph is disconnected!\n";
+            return 0;
+        }
+
+        cout << u + 1 << " - " << v + 1
+             << " : " << min << endl;
+
+        minCost += min;
+        visited[v] = 1;
+        edges++;
+    }
+
+    cout << "\nTotal Minimum Cost = "
+         << minCost << endl;
+
+    return 0;
+}
