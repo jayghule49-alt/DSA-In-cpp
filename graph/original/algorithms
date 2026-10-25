@@ -1,0 +1,12 @@
+Algorithm 
+Airport Facilities Using Prim’s Algorithm
+Start.
+Create a weighted graph in which vertices represent airport facilities and edges represent possible ground connections.
+Input the number of vertices and the weights of the edges.
+Initialize all vertices as unvisited and select a starting vertex.
+Find the minimum-weight edge connecting a visited vertex to an unvisited vertex.
+Select that edge and mark the new vertex as visited.
+Repeat Steps 5 and 6 until all vertices are visited or no connecting edge is available.
+Display all selected edges and their weights.
+Calculate and display the total cost of the selected connections.
+Stop.
